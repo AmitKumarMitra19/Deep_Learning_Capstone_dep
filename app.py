@@ -90,6 +90,8 @@ def load_model():
     model.eval()
     return model
 
+model = load_model()
+
 # --------------------------------------------
 # 4️⃣ Image Upload + Preprocessing
 # --------------------------------------------

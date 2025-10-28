@@ -1,4 +1,3 @@
-!pip install -q opencv-python-headless streamlit
 
 import streamlit as st
 import torch

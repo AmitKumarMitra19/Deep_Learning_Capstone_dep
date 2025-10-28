@@ -80,7 +80,7 @@ def remove_large_components(binary_mask, max_area_frac=0.15):
 @st.cache_resource
 def load_model():
     # Path to the original full model file
-    model_path = "data/Train/model_output/thyroid_nodule_segmentation.pth"
+    model_path = "best_model.pth"
 
     # Initialize model (same architecture used in training)
     model = UNetRes().to("cpu")
